@@ -1,0 +1,23 @@
+.main-list{
+    @apply list-none
+}
+
+.list-text{
+    @apply mt-4 flex justify-between items-center bg-gray-700 px-4 py-2 rounded w-1/2 text-center mx-auto text-white
+}
+
+.remove-button{
+    @apply text-white bg-red-500 border-0 py-1 px-4 shadow-md
+    focus:outline-none
+    hover:bg-red-600 rounded-md text-base
+}
+
+.clear-div{
+    @apply flex justify-center mt-4
+}
+
+.clear-button{
+    @apply text-white bg-red-500 border-0 py-1 px-4 
+    focus:outline-none
+    hover:bg-red-600 rounded-md text-base
+}
